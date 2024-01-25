@@ -7,7 +7,7 @@ function Header() {
             <h2>Frontend Developer</h2>
             <a href="#">www.kevinmolid.netlify.app</a>
             <div className="header--btn-wrapper">
-                <a href = "mailto: kevinmolid@gmail.com">
+                <a href="mailto: kevinmolid@gmail.com">
                     <button className="header--btn">
                         <i className="fa-solid fa-envelope"></i>Email
                     </button>
