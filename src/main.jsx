@@ -2,13 +2,17 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 
+import './style.css'
+
 /* Elements */
-import App from "/App"
+import App from "./App.jsx"
 
 /* Root */
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
 /* Render */
 root.render(
-    <App />
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
 )
