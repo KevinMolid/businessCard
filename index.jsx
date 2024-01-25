@@ -1,16 +1,14 @@
+/* Imports */
 import React from "react"
-import ReactDOM from "react-dom"
+import ReactDOM from "react-dom/client"
 
-function Page() {
-    return (
-        <main>
-            <h1>HAHA</h1>
-        </main>
-    )
-}
+/* Elements */
+import App from "/App"
 
+/* Root */
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
+/* Render */
 root.render(
-    <Page />
+    <App />
 )
