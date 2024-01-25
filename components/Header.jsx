@@ -8,10 +8,10 @@ function Header() {
             <a href="#">www.kevinmolid.netlify.app</a>
             <div className="header--btn-wrapper">
                 <button className="header--btn">
-                    <i class="fa-solid fa-envelope"></i>Email
+                    <i className="fa-solid fa-envelope"></i>Email
                 </button>
                 <button className="header--btn linkedin-btn">
-                    <i class="fa-brands fa-linkedin"></i>LinkedIn
+                    <i className="fa-brands fa-linkedin"></i>LinkedIn
                 </button>
             </div>
         </header>
